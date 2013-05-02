@@ -12,6 +12,7 @@
         properties['transition'] = 'all ' + options.duration + 'ms ' + options.easing;
         properties['MSTransition'] = 'all ' + options.duration + 'ms ' + options.easing;
         properties['oTransition'] = 'all ' + options.duration + 'ms ' + options.easing;
+		properties['-webkit-transform-style'] = 'preserve-3d'; //Forces Chrome to use the GPU.
         $(this).css(properties);
     };
 
