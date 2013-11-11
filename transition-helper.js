@@ -36,7 +36,7 @@
     /**
      * Function: redraw
      * Forces a redraw of the element.
-     * Required when a browser batches commands that should be run seperately.
+     * Required when a browser batches commands that should be run separately.
      */
     $.fn.redraw = function () {
         $(this).each(function ()
